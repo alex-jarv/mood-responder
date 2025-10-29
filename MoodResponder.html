@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Responder</title>
+    <style>
+        body {
+            background-color: #beecff;
+            color: #000000;
+            font-family: sans-serif;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #000000;
+        }
+
+        button {
+            background: #f88cc8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #fbc6e3;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="Homework.js"></script>
+    <h1 id="main-title" class="fade show">How are you today?</h1>
+    <p>Tell me everything.</p>
+    <input type="text" id="mood-input" placeholder="Enter your mood here" />
+    <button onclick="Moodreader()">Tell Me</button>
+    <button onclick="forgetMood()">Forget This</button>
+</body>
+
+</html>
